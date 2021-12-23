@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AspectRatioFrameLayout">
+        <attr name="aspect_ratio_mode" format="enum">
+            <enum name="fixed_width" value="0" />
+            <enum name="fixed_height" value="1" />
+            <enum name="auto" value="2" />
+        </attr>
+        <attr name="aspect_ratio" format="float" />
+    </declare-styleable>
+</resources>
